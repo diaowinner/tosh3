@@ -1,5 +1,5 @@
 
-This is a rewrite of [Tosh](http://tosh.tjvr.org/), my text-based Scratch project editor.
+This is a 3.0-compatible version of [Tosh](http://tosh.tjvr.org/), the text-based Scratch project editor.
 
 This version is open-source, with a readable, modern codebase.
 
@@ -7,7 +7,7 @@ This version is open-source, with a readable, modern codebase.
 Dependencies
 ============
 
-* Project player thanks to [Nathan's Phosphorus](https://phosphorus.github.io/), as before
+* Project player thanks to [Nathan's Phosphorus](https://phosphorus.github.io/)~~[Forkphorus](https://forkphorus.github.io/)~~, as before
 * Uses [Nearley](http://nearley.js.org/) for parsing. (Originally Tosh used a home-grown Earley parser for performance reasons; I've now rolled lots of perf improvements into Nearley :-))
 * Uses my optimised lexer [Moo](https://github.com/no-context/moo)
 * Uses [nearley-reverse](https://github.com/tjvr/nearley-reverse) for transforming Scratch AST into Tosh code (on load); this is the opposite of parsing, which happens on save/run
